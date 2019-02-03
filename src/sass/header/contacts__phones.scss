@@ -1,0 +1,17 @@
+.contacts__phones {
+    list-style: none;
+}
+
+.phone__link {
+    text-decoration: none;
+    color: $black;
+}
+
+.phone__link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 8px;
+    height: 10px;
+    background: url(//src/img/sprite/call-answer.svg) no-repeat center;
+}
