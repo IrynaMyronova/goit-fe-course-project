@@ -4,15 +4,20 @@
 
 .phone__link {
     text-decoration: none;
+    position: relative;
+    padding-left: 16px;
     color: $black;
+    font-family: $secondary-font-accent;
+    font-size: 0.65125rem;
 }
 
 .phone__link::before {
     content: '';
     position: absolute;
     left: 0;
-    width: 8px;
-    height: 10px;
-    background: url(//src/images/sprite/call-answer.svg) no-repeat center;
+    bottom: 0;
+    width: 10px;
+    height: 12px;
+    background: url(../../images/sprite/call-answer.svg) no-repeat center;
 
 }
