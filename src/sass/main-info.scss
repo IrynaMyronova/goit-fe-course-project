@@ -1,0 +1,47 @@
+.main-info{
+    padding: 0;
+    margin-bottom: 72px;
+}
+.main-info__title{
+    font-family: $primary-font-title, sans-serif;
+    font-weight: 900;
+    font-size: 57.5px;
+    color: $black;
+    line-height: 67.27px;
+    letter-spacing: 0;
+    margin-bottom: 56px;
+
+        &-short-title{
+            display: inline-block;
+            background-color:$black;
+            color:$white;
+        }
+
+}
+.main-info__txt{
+    width: 350px;
+    font-family: $primary-font-accent, sans-serif;
+    font-weight: 800;
+    color:$dark-grey;
+    font-size: 20.83px;
+    line-height: 27px;
+    letter-spacing: 0;
+    padding-left: 100px;
+    position: relative;
+    margin: 0;
+
+        &::before{
+            display: block;
+            content: "";
+            width: 56px;
+            height: 8px;
+            background: $black;
+            position: absolute;
+            top:7%;
+            left:0;
+
+        }
+
+
+}
+  

@@ -1,9 +1,9 @@
-/*
-   Import partials below
-*/
+@import './variables';
 @import './normalize';
-@import './header/header';
-@import './header/logo';
-@import './header/contacts-wrapper';
-@import './header/contacts__email';
-@import './header/contacts__phones';
+@import './fonts';
+@import './common';
+@import './main.scss';
+@import './main-info';
+@import './course-steps';
+@import './before-course';
+@import './after-course'
