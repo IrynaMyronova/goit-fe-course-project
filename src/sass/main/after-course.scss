@@ -1,0 +1,70 @@
+.after-course{
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.after-course__description{
+    max-width: 400px;
+
+}
+.after-course__title{
+    font-family: $primary-font-title, sans-serif;
+    font-weight: 900;
+    font-size: 2.29rem;
+    color: $black;
+    line-height: 3.125rem;
+    letter-spacing: 0;
+    margin: 0 0 40px;
+
+        &--white{
+            display: inline-block;
+            background-color:$black;
+            color:$white;
+    
+        }
+}
+.after-course__list{
+    font-family: $primary-font-txt, sans-serif;
+    font-weight: 400;
+    font-size: 1.04rem;
+    color: $black;
+    line-height: 1.5625rem;
+    letter-spacing: 0;
+    margin: 0;
+    padding:0;
+
+}
+.after-course__item{
+    list-style: none;
+    padding: 0 50px 0 70px;
+    position: relative;
+    margin: 0 0 12px 0;
+
+
+        &::before{
+            display: block;
+            content: "";
+            width: 8px;
+            height: 8px;
+            background-color: $dark-orange;
+            position: absolute;
+            top:6px;
+            left:46px;
+        }
+        &:last-of-type{
+            margin-bottom: 0;
+        }
+        &:nth-of-type(3n){
+            padding-right: 120px;
+        }
+}
+.after-course__img{
+    display: block;
+    padding-top: 16px;
+    max-width: 100%;
+  
+}
+
+ 

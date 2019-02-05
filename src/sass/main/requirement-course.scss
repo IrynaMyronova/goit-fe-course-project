@@ -1,0 +1,67 @@
+.requirement-course__title{
+    font-family: $primary-font-title, sans-serif;
+    font-weight: 900;
+    font-size: 2.29rem;
+    color: $black;
+    line-height: 3.125rem;
+    letter-spacing: 0;
+    margin: 0 0 42px;
+
+}
+.requirement-course__description{
+    display: flex;
+    justify-content: space-between;
+}
+.requirement-course__img{
+    display: block;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.requirement-course__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    height: auto;
+    font-family: $primary-font-txt, sans-serif;
+    font-weight: 400;
+    font-size: 1.04rem;
+    color: $black;
+    line-height: 1.5625rem;
+    letter-spacing: 0;
+    margin: 0;
+    padding:0;
+}
+.requirement-course__item{
+    list-style: none;
+    display: block;
+    box-sizing: border-box;
+    width: 60%;
+    padding: 0 2px 0 40px;
+    counter-reset: none;
+    counter-increment: li;
+    position: relative;
+
+        &:nth-of-type(2n){
+            width: 40%;
+        }
+        &::before{
+            display: block;
+            content: "[ 00" counter(li) " ]";
+            width: 48px;
+            height: 16px;
+            font-family: $primary-font-accent, sans-serif;
+            font-weight: 800;
+            font-size: 0.83331rem;
+            color: $white;
+            line-height: 120%;
+            background-color: #ef7330;
+            position: absolute;
+            text-align: center;
+            top: 23px;
+            left: -10px;
+            transform: rotate(-90deg);
+
+        }
+}
