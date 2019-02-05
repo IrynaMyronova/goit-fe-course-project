@@ -1,17 +1,20 @@
 .contacts__email {
-    display: inline-block;
     text-decoration: none;
     position: relative;
-    padding-left: 14px;
+    padding-left: 16px;
+    color: $black;
+    font-family: $secondary-font-accent;
+    font-size: 0.65125rem;
 }
 
 .contacts__email::before {
     content: '';
     position: absolute;
     left: 0;
+    bottom: 0;
     width: 14px;
     height: 10px;
-    background: url(//src/images/sprite/close-envelope.svg) no-repeat center;
+    background: url(../../images/sprite/close-envelope.svg) no-repeat center;
 }
 
    
