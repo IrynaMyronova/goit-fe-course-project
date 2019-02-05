@@ -5,13 +5,13 @@
 .main-info__title{
     font-family: $primary-font-title, sans-serif;
     font-weight: 900;
-    font-size: 57.5px;
+    font-size: 3.59rem;
     color: $black;
-    line-height: 67.27px;
+    line-height: 4.20rem;
     letter-spacing: 0;
     margin-bottom: 56px;
 
-        &-short-title{
+        &--white{
             display: inline-block;
             background-color:$black;
             color:$white;
@@ -19,16 +19,16 @@
 
 }
 .main-info__txt{
-    width: 350px;
+    width: 42%;
     font-family: $primary-font-accent, sans-serif;
     font-weight: 800;
     color:$dark-grey;
-    font-size: 20.83px;
-    line-height: 27px;
+    font-size: 1.30rem;
+    line-height: 1.6875rem;
     letter-spacing: 0;
     padding-left: 100px;
     position: relative;
-    margin: 0;
+    margin: 0 0 30px;
 
         &::before{
             display: block;
@@ -40,6 +40,9 @@
             top:7%;
             left:0;
 
+        }
+        &:last-of-type{
+            margin-bottom: 0;
         }
 
 

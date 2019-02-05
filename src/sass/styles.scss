@@ -6,10 +6,11 @@
 @import './header/contacts-wrapper';
 @import './header/contacts__email';
 @import './header/contacts__phones';
-@import './main.scss';
-@import './main-info';
-@import './course-steps';
-@import './before-course';
-@import './after-course';
+@import './main/main.scss';
+@import './main/main-info';
+@import './main/course-steps';
+@import './main/before-course';
+@import './main/after-course';
 @import './header/logo';
+@import './main/requirement-course.scss';
 
