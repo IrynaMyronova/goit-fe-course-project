@@ -6,12 +6,19 @@
 @import './header/contacts-wrapper';
 @import './header/contacts__email';
 @import './header/contacts__phones';
+@import './main/main';
 @import './main/main.scss';
 @import './main/main-info';
 @import './main/course-steps';
 @import './main/before-course';
 @import './main/after-course';
 @import './header/logo';
+@import './main/requirement-course';
+@import './main/course-info/course-info__container';
+@import './main/course-info/course-info__name';
+@import './main/course-info/course-info__value';
+@import './main/course-info/course-info__txt';
+@import './main/course-info/course-info-btn';
 @import './main/requirement-course.scss';
 @import './programm/index.scss';
 

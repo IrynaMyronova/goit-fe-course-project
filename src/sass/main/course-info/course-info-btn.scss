@@ -1,0 +1,18 @@
+.course-info-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 20px 34px;
+    border: none;
+    font-size: 0.875rem;
+    font-family: $primary-font-accent;
+    color: $white;
+    line-height: 1.0625rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-color: #ef7330;
+    box-shadow: 0 9px 13px rgba(184, 93, 39, 0.26);
+
+    &:hover {
+        cursor: pointer;
+    }
+}
