@@ -1,7 +1,9 @@
 @import './variables';
 @import './normalize';
+@import './visually-hiden';
 @import './fonts';
 @import './common';
+@import './main/watermark';
 @import './header/header';
 @import './header/contacts-wrapper';
 @import './header/contacts__email';
@@ -19,6 +21,7 @@
 @import './main/course-info/course-info__value';
 @import './main/course-info/course-info__txt';
 @import './main/course-info/course-info-btn';
-@import './main/requirement-course.scss';
-@import './programm/index.scss';
+@import './main/requirement-course';
+@import './programm/employment-styles';
+@import './programm/programm-styles';
 

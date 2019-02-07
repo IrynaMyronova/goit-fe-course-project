@@ -1,0 +1,25 @@
+.watermark {
+    position: relative;
+
+&__txt {
+    opacity: 0.05;
+    color: black;
+    font-family: $primary-font-title;
+    font-size: 180px;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 0;
+    right: 0;
+}
+
+&__txt-one {
+    top: 0;
+    transform: translate(-20.8123rem,53.3125rem) rotate(90deg);
+
+}
+
+&__txt-two {
+    bottom: 0;
+    transform: translate(4.5625rem,162.75rem) rotate(90deg);
+}
+}
