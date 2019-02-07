@@ -50,25 +50,25 @@
   &.stage_left-right-arrow::before{
     background-image: url('../../images/sprite/arrow-left-right.svg');
     height: 7px;
-    width: 88px;
-    left: -100px;
+    width: 40%;
+    left: -46%;
     top: 50%;
   }
 
   &.stage_right-left-arrow::before{
     background-image: url('../../images/sprite/arrow-right-left.svg');
     height: 7px;
-    width: 88px;
-    left: -100px;
+    width: 40%;
+    left: -46%;
     top: 50%;
   }
 
   &.stage_bottom-right-arrow::before{
     background-image: url('../../images/sprite/arrow-bottom-right.svg');
-    height: 83px;
-    width: 204px;
-    left: -220px;
-    top: 10px;
+    height: 100%;
+    width: 94%;
+    left: -101%;
+    top: 12.5%;
   }
 
   &.stage_top-bottom-arrow::after{
