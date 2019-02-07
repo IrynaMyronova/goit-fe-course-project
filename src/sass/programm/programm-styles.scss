@@ -1,12 +1,20 @@
+
+$modules-spacing: 30px;
+
+.section-course-program {
+  margin-bottom: 70px;
+
 .container {
   width: 848px;
   margin: 0 auto;
+
 }
 
 .modules {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap; 
+
 }
 
 .module {
@@ -14,19 +22,22 @@
   width: 32.5%;
   overflow: hidden;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: $modules-spacing;
+
 }
 
 .module:not(:nth-of-type(3n)) {
   margin-right: 1.25%;
 }
 
-.module:nth-last-of-type(-n + 3) {
+
+.module:nth-last-of-type(-n + 3) ~ .module {
   margin-bottom: 0;
 }
 
 .module:nth-of-type(3n):not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: $modules-spacing
+
 }
 
 .module__number {
@@ -58,6 +69,7 @@
   color: black;
   font-size: 3.625rem;
   margin: 0 0 10px;
+  line-height: 18px;
   text-transform: uppercase;
 }
 
@@ -66,7 +78,10 @@
   display: inline-block;
   color: white;
   background: black;
-  margin: 0 0 5px;
+
+  margin: 0;
+  line-height: 1.2;
+
 }
 
 .headline_font-size {
