@@ -87,3 +87,24 @@ $modules-spacing: 30px;
     margin: 0;
   }
 }
+
+@media (max-width: 540px) {
+  .module {
+    width: 100%;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .module {
+    width: 48%;
+    margin-bottom: $modules-spacing;
+
+    &:nth-last-of-type(-n + 2) {
+      margin-bottom: 0;
+    }
+  }
+}
