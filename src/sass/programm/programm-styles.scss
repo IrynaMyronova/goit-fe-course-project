@@ -2,7 +2,34 @@ $modules-spacing: 30px;
 
 .section-course-program {
   margin-bottom: 70px;
+
+  .headline {
+    font-family: 'Acrom-ExtraBold';
+    color: black;
+    font-size: 3.625rem;
+    margin: 0 0 10px;
+    line-height: 18px;
+    text-transform: uppercase;
+  }
+
+  .headline_bg {
+    display: inline-block;
+    color: white;
+    background: black;
+    margin: 0;
+    line-height: 1.2;
+  }
+
+  .headline_font-size {
+    font-size: 0.77rem;
+  }
+
+  .section-course-program__headline {
+    margin-bottom: 56px;
+    text-transform: none;
+  }
 }
+
 
 .modules {
   display: flex;
@@ -16,74 +43,47 @@ $modules-spacing: 30px;
   overflow: hidden;
   justify-content: space-between;
   margin-bottom: $modules-spacing;
-}
 
-.module:not(:nth-of-type(3n)) {
-  margin-right: 1.25%;
-}
+  &:not(:nth-of-type(3n)) {
+    margin-right: 1.25%;
+  }
 
-.module:nth-last-of-type(-n + 3) ~ .module {
-  margin-bottom: 0;
-}
+  &:nth-last-of-type(-n + 3) ~ .module {
+    margin-bottom: 0;
+  }
 
-.module:nth-of-type(3n):not(:last-child) {
-  margin-bottom: $modules-spacing
-}
+  &:nth-of-type(3n):not(:last-child) {
+    margin-bottom: $modules-spacing;
+  }
 
-.module__number {
-  height: 38px;
-  margin-left: -14px;
-  position: relative;
-  line-height: 35px;
-  font-size: 2.3225rem;
-  font-family: 'Acrom-ExtraBold';
-}
+  .module__number {
+    height: 38px;
+    margin-left: -14px;
+    position: relative;
+    line-height: 35px;
+    font-size: 2.3225rem;
+    font-family: 'Acrom-ExtraBold';
+  }
 
-.module__number::after {
-  position: absolute;
-  bottom: -13px;
-  right: 0;
-  content: '';
-  display: block;
-  width: 8px;
-  height: 8px;
-  background: coral;
-}
+  .module__number::after {
+    position: absolute;
+    bottom: -13px;
+    right: 0;
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: coral;
+  }
 
-.description-module {
-  width: 75%;
-}
+  .description-module {
+    width: 75%;
+  }
 
-.headline {
-  font-family: 'Acrom-ExtraBold';
-  color: black;
-  font-size: 3.625rem;
-  margin: 0 0 10px;
-  line-height: 18px;
-  text-transform: uppercase;
-}
-
-
-.headline_bg {
-  display: inline-block;
-  color: white;
-  background: black;
-  margin: 0;
-  line-height: 1.2;
-}
-
-.headline_font-size {
-  font-size: 0.77rem;
-}
-
-.section-course-program__headline {
-  margin-bottom: 56px;
-  text-transform: none;
-}
-
-.description-module__txt {
-  font-family: 'Acrom-Regular';
-  font-size: 0.6575rem;
-  line-height: 15px;
-  margin: 0;
+  .description-module__txt {
+    font-family: 'Acrom-Regular';
+    font-size: 0.6575rem;
+    line-height: 15px;
+    margin: 0;
+  }
 }
