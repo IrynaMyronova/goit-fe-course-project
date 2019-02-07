@@ -4,8 +4,8 @@ $modules-spacing: 30px;
   margin-bottom: 70px;
 
   .headline {
-    font-family: 'Acrom-ExtraBold';
-    color: black;
+    font-family: $primary-font-title;
+    color: $black;
     font-size: 3.625rem;
     margin: 0 0 10px;
     line-height: 18px;
@@ -15,7 +15,7 @@ $modules-spacing: 30px;
   .headline_bg {
     display: inline-block;
     color: white;
-    background: black;
+    background: $black;
     margin: 0;
     line-height: 1.2;
   }
@@ -62,7 +62,7 @@ $modules-spacing: 30px;
     position: relative;
     line-height: 35px;
     font-size: 2.3225rem;
-    font-family: 'Acrom-ExtraBold';
+    font-family: $primary-font-title;
   }
 
   .module__number::after {
@@ -73,7 +73,7 @@ $modules-spacing: 30px;
     display: block;
     width: 8px;
     height: 8px;
-    background: coral;
+    background: $dark-orange;
   }
 
   .description-module {
@@ -81,7 +81,7 @@ $modules-spacing: 30px;
   }
 
   .description-module__txt {
-    font-family: 'Acrom-Regular';
+    font-family: $secondary-font-txt;
     font-size: 0.6575rem;
     line-height: 15px;
     margin: 0;
