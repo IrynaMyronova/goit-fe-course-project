@@ -47,4 +47,25 @@
 
 
 }
-  
+
+@media (max-width: 767px) {
+    .main-info__title{
+        font-size: 1.375rem;
+        line-height: 1.25rem;
+    }
+    .main-info__txt{
+        width: 70%;
+        font-size: 0.875rem;
+        line-height: 1.25rem;
+        padding-left: 70px;
+
+        
+        &::before{
+            width: 36px;
+            height: 4px;
+            top:7%;
+            left:0;
+
+        }
+    }
+}

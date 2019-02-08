@@ -1,35 +1,23 @@
 .requirement-course__title{
-    font-family: $primary-font-title, sans-serif;
-    font-weight: 900;
-    font-size: 2.29rem;
-    color: $black;
-    line-height: 3.125rem;
-    letter-spacing: 0;
-    margin: 0 0 28px;
+    @extend%title;
+    margin: 0 0 30px;
 
 }
 .requirement-course__description{
-    display: flex;
-    justify-content: space-between;
+    @extend%flex;
 }
 .requirement-course__img{
     display: block;
-    max-width: 100%;
     margin: 0;
+    max-width: 100%;
+    width: 344px;
+    height: auto;
     padding: 10px 0 26px;
 }
 .requirement-course__list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 50%;
-    height: auto;
-    font-family: $primary-font-txt, sans-serif;
-    font-weight: 400;
-    font-size: 1.04rem;
-    color: $black;
-    line-height: 1.5625rem;
-    letter-spacing: 0;
+    @extend%flex;
+    flex-basis: 50%;
+    @extend%txt;
     margin: 0;
     padding:0;
 }
@@ -65,3 +53,37 @@
 
         }
 }
+
+@media (max-width: 767px) { 
+    .requirement-course__img{
+        padding: 0;
+        margin-bottom: 30px;
+        
+    }
+    .requirement-course__title{
+        font-size: 1.20rem;
+        line-height: 1.25rem;
+        margin-bottom: 20px;
+    }
+    .requirement-course__description{
+        flex-basis: 100%;
+        flex-flow: column;
+    
+    }
+    .requirement-course__list{
+        font-size: 0.875rem;
+        flex-flow: column;
+        line-height: 1.5;
+    }
+    .requirement-course__item{
+        padding: 0 20px 0 40px;
+        margin: 0 0 16px 0;
+
+        &::before{
+            top: 20px;
+            left: -10px;
+        }
+    
+    }    
+
+}  
