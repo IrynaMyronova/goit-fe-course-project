@@ -116,8 +116,8 @@
     &:last-child {
       margin-bottom: 0;
     }
-  
 
+  }
 
   &.stage_bottom-right-arrow::before{
     background-image: url('../../images/sprite/arrow-bottom-right.svg');
@@ -135,6 +135,5 @@
     top: -22px;
     transform: translate(-50%, -50%);
   }
-}
 }
 

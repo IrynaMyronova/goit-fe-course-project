@@ -28,6 +28,8 @@ $modules-spacing: 30px;
   .section-course-program__headline {
     margin-bottom: 56px;
     text-transform: none;
+    max-width: 100%;
+    overflow-wrap: break-word;
   }
 }
 
@@ -99,31 +101,19 @@ $modules-spacing: 30px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .module {
     width: 48%;
     margin-bottom: $modules-spacing;
 
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
-}
-.headline_bg {
-  display: inline-block;
-  color: white;
-  background: black;
-  margin: 0;
-  line-height: 1.2;
- }
-
-
-@media (max-width: 768px) {
-  .module {
-    width: 48%;
-    margin-bottom: $modules-spacing;
     &:nth-last-of-type(-n + 2) {
       margin-bottom: 0;
     }
   }
+
+  .headline.section-course-program__headline {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
 }
