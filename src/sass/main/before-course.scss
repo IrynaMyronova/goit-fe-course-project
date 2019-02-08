@@ -1,25 +1,21 @@
 .before-course{
-    display: flex;
     width: 100%;
-    justify-content: space-between;
+    @extend%flex;
     margin-bottom: 98px;
 }
 .before-course__description{
-    width: 49%;
+    flex-basis: 45%;
 }
 .before-course__img{
     display: block;
-    max-width: 100%;
     margin: 0;
     padding: 0;
+    max-width: 100%;
+    width: 417px;
+    height: 100%;
 }
 .before-course__title{
-    font-family: $primary-font-title, sans-serif;
-    font-weight: 900;
-    font-size: 2.29rem;
-    color: $black;
-    line-height: 3.125rem;
-    letter-spacing: 0;
+    @extend%title;
     margin: 0 0 42px;
     padding-top: 26px;
     position: relative;
@@ -31,18 +27,37 @@
             height: 16px;
             background: $black;
             position: absolute;
-            top: 0;
-            left: 0;
+            top: -2px;
+            left: -2px;
 
         }
 }
 .before-course__txt{
-    font-family: $primary-font-txt, sans-serif;
-    font-weight: 400;
-    font-size: 1.04rem;
-    color: $black;
-    line-height: 1.5625rem;
-    letter-spacing: 0;
+    @extend%txt;
     margin: 0;
-    padding: 0 50px 0 0;
+    padding: 0;
 }
+
+@media (max-width: 767px) {
+    .before-course__img{
+       margin-bottom: 20px;
+
+    }
+    .before-course__description{
+        flex-basis: 100%;
+        padding: 0 15px;
+    }
+    .before-course__title{
+        font-size: 1.20rem;
+        line-height: 1.25rem;
+        margin-bottom: 20px;
+    }
+    .before-course__txt{
+        font-size: 0.875rem;
+        line-height: 1.5;
+
+    }
+    .before-course{
+        margin-bottom: 50px;
+    }
+}    

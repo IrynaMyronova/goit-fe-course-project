@@ -1,13 +1,14 @@
 $modules-spacing: 30px;
 
 .section-course-program {
+
   margin-bottom: 100px;
 
   .headline {
     font-family: $primary-font-title;
     color: $black;
     font-size: 3.625rem;
-    margin: 0 0 12px;
+    margin: 0 0 10px;
     line-height: 18px;
     text-transform: uppercase;
   }
@@ -27,6 +28,8 @@ $modules-spacing: 30px;
   .section-course-program__headline {
     margin-bottom: 56px;
     text-transform: none;
+    max-width: 100%;
+    overflow-wrap: break-word;
   }
 }
 
@@ -98,7 +101,7 @@ $modules-spacing: 30px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .module {
     width: 48%;
     margin-bottom: $modules-spacing;
@@ -107,4 +110,10 @@ $modules-spacing: 30px;
       margin-bottom: 0;
     }
   }
+
+  .headline.section-course-program__headline {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+
 }

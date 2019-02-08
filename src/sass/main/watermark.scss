@@ -17,11 +17,12 @@
     transform: translate(-21rem,48.3125rem) rotate(90deg);
 
     @media (min-width: 768px) and (max-width: 1439px) {
-        transform: translate(4.7rem,69.75rem) rotate(90deg);
+        transform: translate(-5.3rem,77.75rem) rotate(90deg);
     }
 
     @media (max-width: 767px) {
-        transform: translate(1rem,76.3125rem) rotate(90deg);
+        font-size: 6.25rem;
+        transform: translate(4rem,59.3125rem) rotate(90deg);
     }
     
 }
@@ -32,10 +33,11 @@
     transform: translate(7.1rem,157.4rem) rotate(90deg);
 
     @media (min-width: 768px) and (max-width: 1439px) {
-        transform: translate(26.8rem,179.75rem) rotate(90deg);
+        transform: translate(29.8rem,192.75rem) rotate(90deg);
         }
     @media (max-width: 767px) {
-        transform: translate(28.7rem,253.4rem) rotate(90deg);
+        font-size: 6.25rem;
+        transform: translate(15rem,132.4rem) rotate(90deg);
         }
    
     }

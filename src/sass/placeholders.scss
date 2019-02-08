@@ -1,0 +1,22 @@
+%flex{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+%txt{
+    font-family: $primary-font-txt, sans-serif;
+    font-weight: 400;
+    font-size: 1.04rem;
+    line-height: 1.5625rem;
+    letter-spacing: 0;
+    color: $black;
+}
+
+%title{
+    font-family: $primary-font-title, sans-serif;
+    font-weight: 900;
+    font-size: 2.29rem;
+    color: $black;
+    line-height: 3.125rem;
+    letter-spacing: 0;
+}
