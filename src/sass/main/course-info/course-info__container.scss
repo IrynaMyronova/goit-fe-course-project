@@ -1,8 +1,13 @@
 .course-info__container {
-    margin: 0 auto 3.375rem;
-    padding: 5.58139535%;
+    margin: 0 auto 6.5%;
+    padding: 2.9rem;
+    padding-bottom: 3.4rem;
     width: 38.5%;
     box-shadow: -5.2px 6px 16.8px 4.2px rgba(0, 0, 0, 0.11);
     display: flex;
     flex-wrap: wrap;
+
+    @media (max-width: 767px) {
+        width: 38%;
+    }
 }

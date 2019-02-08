@@ -1,5 +1,16 @@
+header {
+    padding: 2rem 0.375rem 0.7rem;
+
+    @media (min-width: 768px) and (max-width: 1439px) {
+        padding-bottom: 0.1rem;
+    }
+
+    @media (max-width: 767px) {
+        padding: 2rem 0.5rem 0.1rem;
+    }
+}
+
 .header {
-    padding: 2rem 0.375rem 1.875rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
