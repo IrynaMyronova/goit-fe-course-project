@@ -1,3 +1,4 @@
+
 $modules-spacing: 30px;
 
 .section-course-program {
@@ -31,11 +32,16 @@ $modules-spacing: 30px;
 }
 
 
+.container {
+  width: 848px;
+  margin: 0 auto;
+} 
+
 .modules {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-}
+} 
 
 .module {
   display: flex;
@@ -55,6 +61,7 @@ $modules-spacing: 30px;
   &:nth-of-type(3n):not(:last-child) {
     margin-bottom: $modules-spacing;
   }
+
 
   .module__number {
     height: 38px;
@@ -91,12 +98,19 @@ $modules-spacing: 30px;
 @media (max-width: 540px) {
   .module {
     width: 100%;
-
     &:last-child {
       margin-bottom: 0;
     }
   }
 }
+.headline_bg {
+  display: inline-block;
+  color: white;
+  background: black;
+  margin: 0;
+  line-height: 1.2;
+ }
+
 
 @media (max-width: 768px) {
   .module {
