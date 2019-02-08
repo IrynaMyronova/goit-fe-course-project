@@ -1,23 +1,24 @@
 .course-info__value {
-    height: 156px;
+    margin-bottom: 7%;
+    height: 144px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    letter-spacing: 0.04rem;
 
     &-item {
         font-size: 0.75rem;
         font-family: $primary-font-title;
         text-transform: uppercase;
         color: $black;
-        line-height: 1.125rem;
     }
 
     &-item--margin-bottom {
-        margin-bottom: 3rem;
+        margin-bottom: 50%;
     }
 
     &-item--margin-bottom-2 {
-        margin-bottom: 1.6rem;
+        margin-bottom: 20%;
     }
 
     &-item--cross {
