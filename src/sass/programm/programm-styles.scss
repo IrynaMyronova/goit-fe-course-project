@@ -1,6 +1,7 @@
 $modules-spacing: 30px;
 
 .section-course-program {
+
   margin-bottom: 70px;
 
   .headline {
@@ -103,6 +104,24 @@ $modules-spacing: 30px;
     width: 48%;
     margin-bottom: $modules-spacing;
 
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+.headline_bg {
+  display: inline-block;
+  color: white;
+  background: black;
+  margin: 0;
+  line-height: 1.2;
+ }
+
+
+@media (max-width: 768px) {
+  .module {
+    width: 48%;
+    margin-bottom: $modules-spacing;
     &:nth-last-of-type(-n + 2) {
       margin-bottom: 0;
     }

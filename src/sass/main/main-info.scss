@@ -1,6 +1,6 @@
 .main-info{
     padding: 0;
-    margin-bottom: 72px;
+    margin-bottom: 62px;
 }
 .main-info__title{
     font-family: $primary-font-title, sans-serif;
@@ -19,7 +19,7 @@
 
 }
 .main-info__txt{
-    width: 42%;
+    width: 38%;
     font-family: $primary-font-accent, sans-serif;
     font-weight: 800;
     color:$dark-grey;
@@ -28,7 +28,7 @@
     letter-spacing: 0;
     padding-left: 100px;
     position: relative;
-    margin: 0 0 30px;
+    margin: 0 0 22px;
 
         &::before{
             display: block;

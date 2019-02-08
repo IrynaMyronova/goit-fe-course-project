@@ -1,5 +1,5 @@
 .employment-steps {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .stages{
@@ -62,6 +62,63 @@
     left: -46%;
     top: 50%;
   }
+
+  &.stage_bottom-right-arrow::before{
+    background-image: url('../../images/sprite/arrow-bottom-right.svg');
+    height: 100%;
+    width: 94%;
+    left: -101%;
+    top: 12.5%;
+  }
+
+  &.stage_top-bottom-arrow::after{
+    background-image: url('../../images/sprite/arrow-top-bottom.svg');
+    height: 32px;
+    width: 7px;
+    left: 50%;
+    top: -22px;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media (max-width: 540px) {
+  .stage {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .stage {
+    width: 70%;
+    position: relative;
+
+    &:nth-of-type(n):not(:last-child) {
+      margin: 0 0 48px;
+    }
+
+    &:nth-of-type(n):not(:last-child):before {
+      display: none;
+    }
+
+    &:nth-of-type(n):not(:last-child):after {
+      position: absolute;
+      content: "";
+      display: block;
+      background-size: contain;
+      background: url('../../images/sprite/arrow-top-bottom.svg') no-repeat;
+      height: 32px;
+      width: 7px;
+      left: 50%;
+      top: auto;
+      bottom: -25px;
+      transform: translate(-50%, 50%);
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
 
   &.stage_bottom-right-arrow::before{
     background-image: url('../../images/sprite/arrow-bottom-right.svg');
