@@ -1,14 +1,14 @@
-
 $modules-spacing: 30px;
 
 .section-course-program {
-  margin-bottom: 100px;
+
+  margin-bottom: 70px;
 
   .headline {
     font-family: $primary-font-title;
     color: $black;
     font-size: 3.625rem;
-    margin: 0 0 12px;
+    margin: 0 0 10px;
     line-height: 18px;
     text-transform: uppercase;
   }
@@ -32,16 +32,11 @@ $modules-spacing: 30px;
 }
 
 
-.container {
-  width: 848px;
-  margin: 0 auto;
-} 
-
 .modules {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-} 
+}
 
 .module {
   display: flex;
@@ -61,7 +56,6 @@ $modules-spacing: 30px;
   &:nth-of-type(3n):not(:last-child) {
     margin-bottom: $modules-spacing;
   }
-
 
   .module__number {
     height: 38px;
@@ -98,6 +92,18 @@ $modules-spacing: 30px;
 @media (max-width: 540px) {
   .module {
     width: 100%;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .module {
+    width: 48%;
+    margin-bottom: $modules-spacing;
+
     &:last-child {
       margin-bottom: 0;
     }
@@ -116,7 +122,6 @@ $modules-spacing: 30px;
   .module {
     width: 48%;
     margin-bottom: $modules-spacing;
-
     &:nth-last-of-type(-n + 2) {
       margin-bottom: 0;
     }
