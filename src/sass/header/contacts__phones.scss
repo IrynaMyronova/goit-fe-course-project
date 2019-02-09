@@ -1,0 +1,31 @@
+.contacts__phones {
+    list-style: none;
+    padding: 0;
+
+    @media (max-width: 767px) {
+        margin: 0;;
+    }
+}
+
+.phone__link {
+    display: block;
+    text-decoration: none;
+    position: relative;
+    padding-left: 1rem;
+    color: $black;
+    font-family: $primary-font-accent;
+    font-size: 0.65125rem;
+    font-weight: 500;
+    line-height: 1rem;
+}
+
+.phone__link::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0.625rem;
+    height: 1.1rem;
+    background: url(../../images/sprite/call-answer.svg) no-repeat center;
+    background-size: 0.625rem 0.75rem;
+}

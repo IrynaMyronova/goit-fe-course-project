@@ -1,0 +1,21 @@
+.course-info__container {
+    margin: 0 auto 6.5%;
+    padding: 2.9rem;
+    padding-bottom: 3.4rem;
+    width: 38.5%;
+    box-shadow: -5.2px 6px 16.8px 4.2px rgba(0, 0, 0, 0.11);
+    display: flex;
+    flex-wrap: wrap;
+
+    @media (min-width: 481px) and (max-width: 767px) {
+        width: 60%;
+        padding: 2.9rem;
+        padding-bottom: 3.4rem;
+    }
+
+    @media (max-width: 480px) {
+        width: 90%;
+        margin-bottom: 15.5%;
+        padding: 1.9rem 1rem 2.2rem;
+    }
+}

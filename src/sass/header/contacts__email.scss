@@ -1,0 +1,22 @@
+.contacts__email {
+    display: block;
+    text-decoration: none;
+    position: relative;
+    padding-left: 1.1rem;
+    color: $black;
+    font-family: $primary-font-accent;
+    font-size: 0.65125rem;
+    line-height: 1rem;
+}
+
+.contacts__email::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0.875rem;
+    height: 1.1rem;
+    background: url(../../images/sprite/close-envelope.svg) no-repeat left;
+}
+
+   

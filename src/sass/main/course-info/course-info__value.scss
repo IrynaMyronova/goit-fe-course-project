@@ -1,0 +1,38 @@
+.course-info__value {
+    margin-bottom: 7%;
+    height: 144px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    letter-spacing: 0.04rem;
+
+    &-item {
+        font-size: 0.75rem;
+        font-family: $primary-font-title;
+        text-transform: uppercase;
+        color: $black;
+    }
+
+    &-item--margin-bottom {
+        margin-bottom: 50%;
+    }
+
+    &-item--margin-bottom-2 {
+        margin-bottom: 20%;
+    }
+
+    &-item--cross {
+        position: relative;
+    }
+
+    &-item--cross:after {
+        content: '';
+        position: absolute;
+        display: block;
+        width: 62px;
+        height: 4px;
+        background-color: $dark-orange;
+        top: 50%;
+        transform: translate(0,-100%) rotate(-12deg);
+    }
+}
