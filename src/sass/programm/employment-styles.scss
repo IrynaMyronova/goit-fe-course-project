@@ -116,24 +116,7 @@
     &:last-child {
       margin-bottom: 0;
     }
-
   }
 
-  &.stage_bottom-right-arrow::before{
-    background-image: url('../../images/sprite/arrow-bottom-right.svg');
-    height: 100%;
-    width: 94%;
-    left: -101%;
-    top: 12.5%;
   }
-
-  &.stage_top-bottom-arrow::after{
-    background-image: url('../../images/sprite/arrow-top-bottom.svg');
-    height: 32px;
-    width: 7px;
-    left: 50%;
-    top: -22px;
-    transform: translate(-50%, -50%);
-  }
-}
 
