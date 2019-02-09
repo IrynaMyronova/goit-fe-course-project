@@ -1,0 +1,1434 @@
+@charset "UTF-8";
+
+/* Acrom-ExtraBold */
+
+@font-face {
+  font-family: 'Acrom-ExtraBold';
+  src: url("../fonts/Acrom/Acrom-ExtraBold.woff") format("woff");
+}
+
+/* Acrom-Bold */
+
+@font-face {
+  font-family: 'Acrom-Bold';
+  src: url("../fonts/Acrom/Acrom-Bold.woff") format("woff");
+}
+
+/* Acrom-Medium */
+
+@font-face {
+  font-family: 'Acrom-Medium';
+  src: url("../fonts/Acrom/Acrom-Medium.woff") format("woff");
+}
+
+/* Acrom-Regular */
+
+@font-face {
+  font-family: 'Acrom-Regular';
+  src: url("../fonts/Acrom/Acrom-Regular.woff") format("woff");
+}
+
+/* Roboto-Regular */
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url("../fonts/Roboto/Roboto.woff") format("woff");
+}
+
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+     ========================================================================== */
+
+/**
+   * Remove the margin in all browsers.
+   */
+
+body {
+  margin: 0;
+}
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+     ========================================================================== */
+
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+     ========================================================================== */
+
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+
+a {
+  background-color: transparent;
+}
+
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+   * Add the correct font size in all browsers.
+   */
+
+small {
+  font-size: 80%;
+}
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+     ========================================================================== */
+
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+     ========================================================================== */
+
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+   * Correct the padding in Firefox.
+   */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+     ========================================================================== */
+
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+
+details {
+  display: block;
+}
+
+/*
+   * Add the correct display in all browsers.
+   */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+     ========================================================================== */
+
+/**
+   * Add the correct display in IE 10+.
+   */
+
+template {
+  display: none;
+}
+
+/**
+   * Add the correct display in IE 10.
+   */
+
+[hidden] {
+  display: none;
+}
+
+.visually-hidden {
+  /* Удаляем элемент из потока документа */
+  position: absolute;
+  /* Временное решение для неверно произносимого, размазанного текста */
+  white-space: nowrap;
+  /* Устанавливаем минимально возможный размер (некоторые скринридеры игнорируют элементы с нулевой высотой и шириной) */
+  width: 1px;
+  height: 1px;
+  /* Скрываем вылезающий за границы контент */
+  overflow: hidden;
+  /* Сбрасываем любые свойства, которые могут повлиять на размер элемента */
+  border: 0;
+  padding: 0;
+  /* Вырезаем ту часть контента, которая должна отображаться. */
+  /* Устаревшее свойство clip для старых браузеров */
+  clip: rect(0 0 0 0);
+  /* clip-path для новых браузеров. inset(50%) определяет область вставки, которая позволит контенту исчезнуть.  */
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  /* Похоже, никто до конца не понимает, почему тут margin: -1px. Кроме того, это приводит к проблемам (читай: https://github.com/h5bp/html5-boilerplate/issues/1985). */
+  margin: -1px;
+}
+
+.header,
+.contacts-wrapper,
+.before-course,
+.after-course,
+.requirement-course__description,
+.requirement-course__list,
+.stages {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.before-course__txt,
+.after-course__list,
+.requirement-course__list {
+  font-family: "Acrom-Regular", sans-serif;
+  font-weight: 400;
+  font-size: 1.04rem;
+  line-height: 1.5625rem;
+  letter-spacing: 0;
+  color: #000000;
+}
+
+.before-course__title,
+.after-course__title,
+.requirement-course__title {
+  font-family: "Acrom-ExtraBold", sans-serif;
+  font-weight: 900;
+  font-size: 2.29rem;
+  color: #000000;
+  line-height: 3.125rem;
+  letter-spacing: 0;
+}
+
+/* Acrom-ExtraBold */
+
+@font-face {
+  font-family: 'Acrom-ExtraBold';
+  src: url("../fonts/Acrom/Acrom-ExtraBold.woff") format("woff");
+}
+
+/* Acrom-Bold */
+
+@font-face {
+  font-family: 'Acrom-Bold';
+  src: url("../fonts/Acrom/Acrom-Bold.woff") format("woff");
+}
+
+/* Acrom-Medium */
+
+@font-face {
+  font-family: 'Acrom-Medium';
+  src: url("../fonts/Acrom/Acrom-Medium.woff") format("woff");
+}
+
+/* Acrom-Regular */
+
+@font-face {
+  font-family: 'Acrom-Regular';
+  src: url("../fonts/Acrom/Acrom-Regular.woff") format("woff");
+}
+
+/* Roboto-Regular */
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url("../fonts/Roboto/Roboto.woff") format("woff");
+}
+
+.container {
+  max-width: 848px;
+  min-width: 320px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.watermark {
+  position: relative;
+}
+
+.watermark__txt {
+  opacity: 0.05;
+  color: black;
+  font-family: "Acrom-ExtraBold";
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 0;
+  right: 0;
+}
+
+.watermark__txt-one {
+  font-size: 11.25rem;
+  top: 0;
+  -webkit-transform: translate(-21rem, 48.3125rem) rotate(90deg);
+  transform: translate(-21rem, 48.3125rem) rotate(90deg);
+}
+
+.watermark__txt-two {
+  font-size: 10.25rem;
+  bottom: 0;
+  -webkit-transform: translate(7.1rem, 157.4rem) rotate(90deg);
+  transform: translate(7.1rem, 157.4rem) rotate(90deg);
+}
+
+header {
+  padding: 2rem 0.375rem 0.7rem;
+}
+
+.header {
+  align-items: center;
+}
+
+.contacts-wrapper {
+  width: 26.744186%;
+  align-items: center;
+}
+
+.contacts__email {
+  display: block;
+  text-decoration: none;
+  position: relative;
+  padding-left: 1.1rem;
+  color: #000000;
+  font-family: "Acrom-Bold";
+  font-size: 0.65125rem;
+  line-height: 1rem;
+}
+
+.contacts__email::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0.875rem;
+  height: 1.1rem;
+  background: url(../../images/sprite/close-envelope.svg) no-repeat left;
+}
+
+.contacts__phones {
+  list-style: none;
+  padding: 0;
+}
+
+.phone__link {
+  display: block;
+  text-decoration: none;
+  position: relative;
+  padding-left: 1rem;
+  color: #000000;
+  font-family: "Acrom-Bold";
+  font-size: 0.65125rem;
+  font-weight: 500;
+  line-height: 1rem;
+}
+
+.phone__link::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0.625rem;
+  height: 1.1rem;
+  background: url(../../images/sprite/call-answer.svg) no-repeat center;
+  background-size: 0.625rem 0.75rem;
+}
+
+main {
+  padding: 6px 6px 86px;
+}
+
+main {
+  padding: 6px 6px 86px;
+}
+
+.main-info {
+  padding: 0;
+  margin-bottom: 62px;
+}
+
+.main-info__title {
+  font-family: "Acrom-ExtraBold", sans-serif;
+  font-weight: 900;
+  font-size: 3.59rem;
+  color: #000000;
+  line-height: 4.20rem;
+  letter-spacing: 0;
+  margin-bottom: 56px;
+}
+
+.main-info__title--white {
+  display: inline-block;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.main-info__txt {
+  width: 38%;
+  font-family: "Acrom-Bold", sans-serif;
+  font-weight: 800;
+  color: #231f20;
+  font-size: 1.30rem;
+  line-height: 1.6875rem;
+  letter-spacing: 0;
+  padding-left: 100px;
+  position: relative;
+  margin: 0 0 22px;
+}
+
+.main-info__txt::before {
+  display: block;
+  content: "";
+  width: 56px;
+  height: 8px;
+  background: #000000;
+  position: absolute;
+  top: 7%;
+  left: 0;
+}
+
+.main-info__txt:last-of-type {
+  margin-bottom: 0;
+}
+
+.course-steps {
+  margin-bottom: 150px;
+  padding: 0;
+}
+
+.before-course {
+  width: 100%;
+  margin-bottom: 98px;
+}
+
+.before-course__description {
+  flex-basis: 45%;
+}
+
+.before-course__img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  width: 417px;
+  height: 100%;
+}
+
+.before-course__title {
+  margin: 0 0 42px;
+  padding-top: 26px;
+  position: relative;
+}
+
+.before-course__title::before {
+  display: block;
+  content: "";
+  width: 16px;
+  height: 16px;
+  background: #000000;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+}
+
+.before-course__txt {
+  margin: 0;
+  padding: 0;
+}
+
+.after-course {
+  margin-bottom: 40px;
+  flex-wrap: nowrap;
+  padding: 0;
+}
+
+.after-course__description {
+  flex-basis: 50%;
+}
+
+.after-course__title {
+  margin: 0 0 26px;
+}
+
+.after-course__title--white {
+  display: inline-block;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.after-course__list {
+  margin: 0;
+  padding: 0;
+}
+
+.after-course__item {
+  list-style: none;
+  padding: 0 70px 0 70px;
+  position: relative;
+  margin: 0 0 14px 0;
+}
+
+.after-course__item::before {
+  display: block;
+  content: "";
+  width: 8px;
+  height: 8px;
+  background-color: #f26228;
+  position: absolute;
+  top: 6px;
+  left: 46px;
+}
+
+.after-course__item:last-of-type {
+  margin-bottom: 0;
+}
+
+.after-course__item:nth-of-type(3n) {
+  padding-right: 120px;
+}
+
+.after-course__img {
+  display: block;
+  padding-top: 16px;
+  max-width: 100%;
+  width: 425px;
+  height: 100%;
+}
+
+.logo {
+  text-decoration: none;
+  color: #000000;
+}
+
+.requirement-course__title {
+  margin: 0 0 30px;
+}
+
+.requirement-course__img {
+  display: block;
+  margin: 0;
+  max-width: 100%;
+  width: 344px;
+  height: auto;
+  padding: 10px 0 26px;
+}
+
+.requirement-course__list {
+  flex-basis: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.requirement-course__item {
+  list-style: none;
+  display: block;
+  box-sizing: border-box;
+  width: 60%;
+  padding: 0 2px 0 40px;
+  counter-reset: none;
+  counter-increment: li;
+  position: relative;
+}
+
+.requirement-course__item:nth-of-type(2n) {
+  width: 40%;
+}
+
+.requirement-course__item::before {
+  display: block;
+  content: "[ 00" counter(li) " ]";
+  width: 48px;
+  height: 16px;
+  font-family: "Acrom-Bold", sans-serif;
+  font-weight: 800;
+  font-size: 0.83331rem;
+  color: #ffffff;
+  line-height: 120%;
+  background-color: #ef7330;
+  position: absolute;
+  text-align: center;
+  top: 23px;
+  left: -10px;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.course-info__container {
+  margin: 0 auto 6.5%;
+  padding: 2.9rem;
+  padding-bottom: 3.4rem;
+  width: 38.5%;
+  box-shadow: -5.2px 6px 16.8px 4.2px rgba(0, 0, 0, 0.11);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.course-info__name {
+  margin-bottom: 7%;
+  padding-right: 0.375rem;
+  height: 144px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  letter-spacing: 0.04rem;
+}
+
+.course-info__name-item {
+  font-size: 0.75rem;
+  font-family: "Acrom-Bold";
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.course-info__name-item--margin-bottom {
+  margin-bottom: 10%;
+}
+
+.course-info__value {
+  margin-bottom: 7%;
+  height: 144px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  letter-spacing: 0.04rem;
+}
+
+.course-info__value-item {
+  font-size: 0.75rem;
+  font-family: "Acrom-ExtraBold";
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.course-info__value-item--margin-bottom {
+  margin-bottom: 50%;
+}
+
+.course-info__value-item--margin-bottom-2 {
+  margin-bottom: 20%;
+}
+
+.course-info__value-item--cross {
+  position: relative;
+}
+
+.course-info__value-item--cross:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 62px;
+  height: 4px;
+  background-color: #f26228;
+  top: 50%;
+  -webkit-transform: translate(0, -100%) rotate(-12deg);
+  transform: translate(0, -100%) rotate(-12deg);
+}
+
+.course-info__txt {
+  margin: 0;
+  font-size: 0.9375rem;
+  font-family: "Acrom-Bold";
+  color: #f26228;
+  line-height: 1.3125rem;
+  position: relative;
+  padding-left: 4rem;
+}
+
+.course-info__txt::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 34px;
+  height: 4px;
+  background-color: #000000;
+  left: 0.75rem;
+  top: 50%;
+  -webkit-transform: translate(0, -50%) rotate(-60deg);
+  transform: translate(0, -50%) rotate(-60deg);
+}
+
+.course-info-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 1rem 2.125rem;
+  border: none;
+  font-size: 0.875rem;
+  font-family: "Acrom-Bold";
+  color: #ffffff;
+  line-height: 1.0625rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: #ef7330;
+  box-shadow: 0 9px 13px rgba(184, 93, 39, 0.26);
+}
+
+.course-info-btn:hover {
+  cursor: pointer;
+}
+
+.requirement-course__title {
+  margin: 0 0 30px;
+}
+
+.requirement-course__img {
+  display: block;
+  margin: 0;
+  max-width: 100%;
+  width: 344px;
+  height: auto;
+  padding: 10px 0 26px;
+}
+
+.requirement-course__list {
+  flex-basis: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.requirement-course__item {
+  list-style: none;
+  display: block;
+  box-sizing: border-box;
+  width: 60%;
+  padding: 0 2px 0 40px;
+  counter-reset: none;
+  counter-increment: li;
+  position: relative;
+}
+
+.requirement-course__item:nth-of-type(2n) {
+  width: 40%;
+}
+
+.requirement-course__item::before {
+  display: block;
+  content: "[ 00" counter(li) " ]";
+  width: 48px;
+  height: 16px;
+  font-family: "Acrom-Bold", sans-serif;
+  font-weight: 800;
+  font-size: 0.83331rem;
+  color: #ffffff;
+  line-height: 120%;
+  background-color: #ef7330;
+  position: absolute;
+  text-align: center;
+  top: 23px;
+  left: -10px;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.employment-steps {
+  margin-bottom: 86px;
+}
+
+.stages {
+  justify-content: center;
+}
+
+.stage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  min-height: 80px;
+  padding: 1%;
+  background: #ffffff;
+  box-sizing: border-box;
+  margin-bottom: 48px;
+  border-left: 4px solid #f26228;
+  box-shadow: 0 8px 50px rgba(0, 0, 0, 0.178), 0 8px 8px rgba(0, 0, 0, 0.075);
+  position: relative;
+}
+
+.stage:not(:nth-of-type(3n)) {
+  margin-right: 11.8%;
+}
+
+.stage:last-of-type {
+  margin: 0;
+}
+
+.stage .stage__txt {
+  font-family: "Roboto-Regular", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+}
+
+.stage.stage_with-arrow::before,
+.stage.stage_with-arrow::after {
+  position: absolute;
+  content: "";
+  display: block;
+  background: no-repeat;
+  background-size: contain;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.stage.stage_left-right-arrow::before {
+  background-image: url("../../images/sprite/arrow-left-right.svg");
+  height: 7px;
+  width: 40%;
+  left: -46%;
+  top: 50%;
+}
+
+.stage.stage_right-left-arrow::before {
+  background-image: url("../../images/sprite/arrow-right-left.svg");
+  height: 7px;
+  width: 40%;
+  left: -46%;
+  top: 50%;
+}
+
+.stage.stage_bottom-right-arrow::before {
+  background-image: url("../../images/sprite/arrow-bottom-right.svg");
+  height: 100%;
+  width: 94%;
+  left: -101%;
+  top: 12.5%;
+}
+
+.stage.stage_top-bottom-arrow::after {
+  background-image: url("../../images/sprite/arrow-top-bottom.svg");
+  height: 32px;
+  width: 7px;
+  left: 50%;
+  top: -22px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.section-course-program {
+  margin-bottom: 100px;
+}
+
+.section-course-program .headline {
+  font-family: "Acrom-ExtraBold";
+  color: #000000;
+  font-size: 3.625rem;
+  margin: 0 0 10px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.section-course-program .headline_bg {
+  display: inline-block;
+  color: white;
+  background: #000000;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.section-course-program .headline_font-size {
+  font-size: 0.77rem;
+}
+
+.section-course-program .section-course-program__headline {
+  margin-bottom: 56px;
+  text-transform: none;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+.modules {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.module {
+  display: flex;
+  width: 32.5%;
+  overflow: hidden;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.module:not(:nth-of-type(3n)) {
+  margin-right: 1.25%;
+}
+
+.module:nth-last-of-type(-n + 3) ~ .module {
+  margin-bottom: 0;
+}
+
+.module:nth-of-type(3n):not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.module .module__number {
+  height: 38px;
+  margin-left: -14px;
+  position: relative;
+  line-height: 35px;
+  font-size: 2.3225rem;
+  font-family: "Acrom-ExtraBold";
+}
+
+.module .module__number::after {
+  position: absolute;
+  bottom: -13px;
+  right: 0;
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  background: #f26228;
+}
+
+.module .description-module {
+  width: 75%;
+}
+
+.module .description-module__txt {
+  font-family: "Roboto-Regular";
+  font-size: 0.6575rem;
+  line-height: 15px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .stage {
+    width: 70%;
+    position: relative;
+  }
+
+  .stage:nth-of-type(n):not(:last-child) {
+    margin: 0 0 48px;
+  }
+
+  .stage:nth-of-type(n):not(:last-child):before {
+    display: none;
+  }
+
+  .stage:nth-of-type(n):not(:last-child):after {
+    position: absolute;
+    content: "";
+    display: block;
+    background-size: contain;
+    background: url("../../images/sprite/arrow-top-bottom.svg") no-repeat;
+    height: 32px;
+    width: 7px;
+    left: 50%;
+    top: auto;
+    bottom: -25px;
+    -webkit-transform: translate(-50%, 50%);
+    transform: translate(-50%, 50%);
+  }
+
+  .stage:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .watermark__txt-one {
+    font-size: 6.25rem;
+    -webkit-transform: translate(4rem, 59.3125rem) rotate(90deg);
+    transform: translate(4rem, 59.3125rem) rotate(90deg);
+  }
+
+  .watermark__txt-two {
+    font-size: 6.25rem;
+    -webkit-transform: translate(15rem, 132.4rem) rotate(90deg);
+    transform: translate(15rem, 132.4rem) rotate(90deg);
+  }
+
+  header {
+    padding: 2rem 0.1rem 0.1rem;
+  }
+
+  .contacts-wrapper {
+    flex-direction: column;
+    width: 39%;
+  }
+
+  .contacts__phones {
+    margin: 0;
+  }
+
+  main {
+    padding-top: 24px;
+  }
+
+  main {
+    padding-top: 24px;
+  }
+
+  .main-info__title {
+    font-size: 1.375rem;
+    line-height: 1.25rem;
+  }
+
+  .main-info__txt {
+    width: 70%;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding-left: 70px;
+  }
+
+  .main-info__txt::before {
+    width: 36px;
+    height: 4px;
+    top: 7%;
+    left: 0;
+  }
+
+  .course-steps {
+    margin-bottom: 50px;
+  }
+
+  .before-course__img {
+    margin-bottom: 20px;
+  }
+
+  .before-course__description {
+    flex-basis: 100%;
+    padding: 0 15px;
+  }
+
+  .before-course__title {
+    font-size: 1.20rem;
+    line-height: 1.25rem;
+    margin-bottom: 20px;
+  }
+
+  .before-course__txt {
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+
+  .before-course {
+    margin-bottom: 50px;
+  }
+
+  .after-course__img {
+    display: none;
+  }
+
+  .after-course__title {
+    font-size: 1.20rem;
+    line-height: 1.25rem;
+    margin-bottom: 20px;
+  }
+
+  .after-course__description {
+    flex-basis: 100%;
+  }
+
+  .after-course__list {
+    font-size: 0.875rem;
+    line-height: 1.5;
+  }
+
+  .after-course__item {
+    padding: 0 20px 0 40px;
+    margin: 0 0 16px 0;
+  }
+
+  .after-course__item::before {
+    top: 0;
+    left: 20px;
+  }
+
+  .after-course__item:nth-of-type(3n) {
+    padding-right: 40px;
+  }
+
+  .requirement-course__img {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .requirement-course__title {
+    font-size: 1.20rem;
+    line-height: 1.25rem;
+    margin-bottom: 20px;
+  }
+
+  .requirement-course__description {
+    flex-basis: 100%;
+    flex-flow: column;
+  }
+
+  .requirement-course__list {
+    font-size: 0.875rem;
+    flex-flow: column;
+    line-height: 1.5;
+  }
+
+  .requirement-course__item {
+    padding: 0 20px 0 40px;
+    margin: 0 0 16px 0;
+  }
+
+  .requirement-course__item::before {
+    top: 20px;
+    left: -10px;
+  }
+
+  .requirement-course__img {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .requirement-course__title {
+    font-size: 1.20rem;
+    line-height: 1.25rem;
+    margin-bottom: 20px;
+  }
+
+  .requirement-course__description {
+    flex-basis: 100%;
+    flex-flow: column;
+  }
+
+  .requirement-course__list {
+    font-size: 0.875rem;
+    flex-flow: column;
+    line-height: 1.5;
+  }
+
+  .requirement-course__item {
+    padding: 0 20px 0 40px;
+    margin: 0 0 16px 0;
+  }
+
+  .requirement-course__item::before {
+    top: 20px;
+    left: -10px;
+  }
+
+  .module {
+    width: 48%;
+    margin-bottom: 30px;
+  }
+
+  .module:nth-last-of-type(-n + 2) {
+    margin-bottom: 0;
+  }
+
+  .headline.section-course-program__headline {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 540px) {
+  .stage {
+    width: 100%;
+  }
+
+  .module {
+    width: 100%;
+  }
+
+  .module:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .course-info__container {
+    width: 90%;
+    margin-bottom: 15.5%;
+    padding: 1.9rem 1rem 2.2rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+  .watermark__txt-one {
+    -webkit-transform: translate(-5.3rem, 77.75rem) rotate(90deg);
+    transform: translate(-5.3rem, 77.75rem) rotate(90deg);
+  }
+
+  .watermark__txt-two {
+    -webkit-transform: translate(29.8rem, 192.75rem) rotate(90deg);
+    transform: translate(29.8rem, 192.75rem) rotate(90deg);
+  }
+
+  header {
+    padding-bottom: 0.1rem;
+  }
+
+  .contacts-wrapper {
+    width: 37%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .course-info__container {
+    width: 60%;
+    padding: 2.9rem;
+    padding-bottom: 3.4rem;
+  }
+}
