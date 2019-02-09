@@ -1034,7 +1034,9 @@ main {
 }
 
 .stage.stage_left-right-arrow::before {
+
   background-image: url("../images/sprite/arrow-left-right.svg");
+
   height: 7px;
   width: 40%;
   left: -46%;
