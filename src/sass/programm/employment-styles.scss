@@ -47,7 +47,7 @@
   }
 
   &.stage_left-right-arrow::before{
-    background-image: url('../../images/sprite/arrow-left-right.svg');
+    background-image: url('../images/sprite/arrow-left-right.svg');
     height: 7px;
     width: 40%;
     left: -46%;
@@ -55,7 +55,7 @@
   }
 
   &.stage_right-left-arrow::before{
-    background-image: url('../../images/sprite/arrow-right-left.svg');
+    background-image: url('../images/sprite/arrow-right-left.svg');
     height: 7px;
     width: 40%;
     left: -46%;
@@ -63,7 +63,7 @@
   }
 
   &.stage_bottom-right-arrow::before{
-    background-image: url('../../images/sprite/arrow-bottom-right.svg');
+    background-image: url('../images/sprite/arrow-bottom-right.svg');
     height: 100%;
     width: 94%;
     left: -101%;
@@ -71,7 +71,7 @@
   }
 
   &.stage_top-bottom-arrow::after{
-    background-image: url('../../images/sprite/arrow-top-bottom.svg');
+    background-image: url('../images/sprite/arrow-top-bottom.svg');
     height: 32px;
     width: 7px;
     left: 50%;
@@ -104,7 +104,7 @@
       content: "";
       display: block;
       background-size: contain;
-      background: url('../../images/sprite/arrow-top-bottom.svg') no-repeat;
+      background: url('../images/sprite/arrow-top-bottom.svg') no-repeat;
       height: 32px;
       width: 7px;
       left: 50%;
