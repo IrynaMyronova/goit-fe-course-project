@@ -518,21 +518,22 @@ template {
   text-transform: uppercase;
   position: absolute;
   z-index: 0;
-  right: 0;
 }
 
 .watermark__txt-one {
   font-size: 11.25rem;
-  top: 0;
-  -webkit-transform: translate(-21rem, 48.3125rem) rotate(90deg);
-  transform: translate(-21rem, 48.3125rem) rotate(90deg);
+  top: 48.2rem;
+  right: 21rem;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .watermark__txt-two {
   font-size: 10.25rem;
-  bottom: 0;
-  -webkit-transform: translate(7.1rem, 157.4rem) rotate(90deg);
-  transform: translate(7.1rem, 157.4rem) rotate(90deg);
+  top: 145.7rem;
+  right: -7.4rem;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 header {
@@ -566,7 +567,7 @@ header {
   bottom: 0;
   width: 0.875rem;
   height: 1.1rem;
-  background: url(../../images/sprite/close-envelope.svg) no-repeat left;
+  background: url(../images/sprite/close-envelope.svg) no-repeat left;
 }
 
 .contacts__phones {
@@ -593,7 +594,7 @@ header {
   bottom: 0;
   width: 0.625rem;
   height: 1.1rem;
-  background: url(../../images/sprite/call-answer.svg) no-repeat center;
+  background: url(../images/sprite/call-answer.svg) no-repeat center;
   background-size: 0.625rem 0.75rem;
 }
 
@@ -1034,9 +1035,7 @@ main {
 }
 
 .stage.stage_left-right-arrow::before {
-
   background-image: url("../images/sprite/arrow-left-right.svg");
-
   height: 7px;
   width: 40%;
   left: -46%;
@@ -1195,14 +1194,18 @@ main {
 @media (max-width: 767px) {
   .watermark__txt-one {
     font-size: 6.25rem;
-    -webkit-transform: translate(4rem, 59.3125rem) rotate(90deg);
-    transform: translate(4rem, 59.3125rem) rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 56rem;
+    right: 0;
   }
 
   .watermark__txt-two {
     font-size: 6.25rem;
-    -webkit-transform: translate(15rem, 132.4rem) rotate(90deg);
-    transform: translate(15rem, 132.4rem) rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 139rem;
+    right: -15rem;
   }
 
   header {
@@ -1394,6 +1397,10 @@ main {
     width: 100%;
   }
 
+  .module:nth-last-of-type(-n + 3) ~ .module {
+    margin-bottom: 30px;
+  }
+
   .module:last-child {
     margin-bottom: 0;
   }
@@ -1409,13 +1416,17 @@ main {
 
 @media (min-width: 768px) and (max-width: 1439px) {
   .watermark__txt-one {
-    -webkit-transform: translate(-5.3rem, 77.75rem) rotate(90deg);
-    transform: translate(-5.3rem, 77.75rem) rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 79rem;
+    right: 4rem;
   }
 
   .watermark__txt-two {
-    -webkit-transform: translate(29.8rem, 192.75rem) rotate(90deg);
-    transform: translate(29.8rem, 192.75rem) rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 194rem;
+    right: -25rem;
   }
 
   header {
