@@ -95,6 +95,9 @@ $modules-spacing: 30px;
   .module {
     width: 100%;
 
+    &:nth-last-of-type(-n + 3) ~ .module {
+      margin-bottom: 30px;
+    }
     &:last-child {
       margin-bottom: 0;
     }
