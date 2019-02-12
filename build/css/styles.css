@@ -518,21 +518,22 @@ template {
   text-transform: uppercase;
   position: absolute;
   z-index: 0;
-  right: 0;
 }
 
 .watermark__txt-one {
   font-size: 11.25rem;
-  top: 0;
-  -webkit-transform: translate(-21rem, 48.3125rem) rotate(90deg);
-  transform: translate(-21rem, 48.3125rem) rotate(90deg);
+  top: 48.2rem;
+  right: 21rem;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .watermark__txt-two {
   font-size: 10.25rem;
-  bottom: 0;
-  -webkit-transform: translate(7.1rem, 157.4rem) rotate(90deg);
-  transform: translate(7.1rem, 157.4rem) rotate(90deg);
+  top: 145.7rem;
+  right: -7.4rem;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 header {
@@ -566,7 +567,7 @@ header {
   bottom: 0;
   width: 0.875rem;
   height: 1.1rem;
-  background: url(../../images/sprite/close-envelope.svg) no-repeat left;
+  background: url(../images/sprite/close-envelope.svg) no-repeat left;
 }
 
 .contacts__phones {
@@ -593,7 +594,7 @@ header {
   bottom: 0;
   width: 0.625rem;
   height: 1.1rem;
-  background: url(../../images/sprite/call-answer.svg) no-repeat center;
+  background: url(../images/sprite/call-answer.svg) no-repeat center;
   background-size: 0.625rem 0.75rem;
 }
 
@@ -665,7 +666,7 @@ main {
 }
 
 .before-course__description {
-  flex-basis: 45%;
+  flex-basis: 48%;
 }
 
 .before-course__img {
@@ -696,7 +697,7 @@ main {
 
 .before-course__txt {
   margin: 0;
-  padding: 0;
+  padding: 0 10px 0 0;
 }
 
 .after-course {
@@ -765,6 +766,7 @@ main {
 
 .requirement-course__title {
   margin: 0 0 30px;
+  padding: 0 200px 0 0;
 }
 
 .requirement-course__img {
@@ -777,7 +779,7 @@ main {
 }
 
 .requirement-course__list {
-  flex-basis: 50%;
+  flex-basis: 51%;
   margin: 0;
   padding: 0;
 }
@@ -787,7 +789,7 @@ main {
   display: block;
   box-sizing: border-box;
   width: 60%;
-  padding: 0 2px 0 40px;
+  padding: 0 6px 0 40px;
   counter-reset: none;
   counter-increment: li;
   position: relative;
@@ -933,6 +935,7 @@ main {
 
 .requirement-course__title {
   margin: 0 0 30px;
+  padding: 0 200px 0 0;
 }
 
 .requirement-course__img {
@@ -945,7 +948,7 @@ main {
 }
 
 .requirement-course__list {
-  flex-basis: 50%;
+  flex-basis: 51%;
   margin: 0;
   padding: 0;
 }
@@ -955,7 +958,7 @@ main {
   display: block;
   box-sizing: border-box;
   width: 60%;
-  padding: 0 2px 0 40px;
+  padding: 0 6px 0 40px;
   counter-reset: none;
   counter-increment: li;
   position: relative;
@@ -1034,9 +1037,7 @@ main {
 }
 
 .stage.stage_left-right-arrow::before {
-
   background-image: url("../images/sprite/arrow-left-right.svg");
-
   height: 7px;
   width: 40%;
   left: -46%;
@@ -1195,14 +1196,18 @@ main {
 @media (max-width: 767px) {
   .watermark__txt-one {
     font-size: 6.25rem;
-    -webkit-transform: translate(4rem, 59.3125rem) rotate(90deg);
-    transform: translate(4rem, 59.3125rem) rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 56rem;
+    right: 0;
   }
 
   .watermark__txt-two {
     font-size: 6.25rem;
-    -webkit-transform: translate(15rem, 132.4rem) rotate(90deg);
-    transform: translate(15rem, 132.4rem) rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 139rem;
+    right: -19rem;
   }
 
   header {
@@ -1255,7 +1260,7 @@ main {
 
   .before-course__description {
     flex-basis: 100%;
-    padding: 0 15px;
+    padding: 0 4px;
   }
 
   .before-course__title {
@@ -1315,6 +1320,7 @@ main {
     font-size: 1.20rem;
     line-height: 1.25rem;
     margin-bottom: 20px;
+    padding: 0;
   }
 
   .requirement-course__description {
@@ -1347,6 +1353,7 @@ main {
     font-size: 1.20rem;
     line-height: 1.25rem;
     margin-bottom: 20px;
+    padding: 0;
   }
 
   .requirement-course__description {
@@ -1409,13 +1416,17 @@ main {
 
 @media (min-width: 768px) and (max-width: 1439px) {
   .watermark__txt-one {
-    -webkit-transform: translate(-5.3rem, 77.75rem) rotate(90deg);
-    transform: translate(-5.3rem, 77.75rem) rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 79rem;
+    right: 4rem;
   }
 
   .watermark__txt-two {
-    -webkit-transform: translate(29.8rem, 192.75rem) rotate(90deg);
-    transform: translate(29.8rem, 192.75rem) rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    top: 194rem;
+    right: -32rem;
   }
 
   header {
