@@ -1,6 +1,7 @@
 .requirement-course__title{
     @extend%title;
     margin: 0 0 30px;
+    padding: 0 200px 0 0;
 
 }
 .requirement-course__description{
@@ -16,7 +17,7 @@
 }
 .requirement-course__list{
     @extend%flex;
-    flex-basis: 50%;
+    flex-basis: 51%;
     @extend%txt;
     margin: 0;
     padding:0;
@@ -26,7 +27,7 @@
     display: block;
     box-sizing: border-box;
     width: 60%;
-    padding: 0 2px 0 40px;
+    padding: 0 6px 0 40px;
     counter-reset: none;
     counter-increment: li;
     position: relative;
@@ -64,6 +65,7 @@
         font-size: 1.20rem;
         line-height: 1.25rem;
         margin-bottom: 20px;
+        padding: 0;
     }
     .requirement-course__description{
         flex-basis: 100%;

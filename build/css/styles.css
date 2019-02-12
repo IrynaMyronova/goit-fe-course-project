@@ -666,7 +666,7 @@ main {
 }
 
 .before-course__description {
-  flex-basis: 45%;
+  flex-basis: 48%;
 }
 
 .before-course__img {
@@ -697,7 +697,7 @@ main {
 
 .before-course__txt {
   margin: 0;
-  padding: 0;
+  padding: 0 10px 0 0;
 }
 
 .after-course {
@@ -766,6 +766,7 @@ main {
 
 .requirement-course__title {
   margin: 0 0 30px;
+  padding: 0 200px 0 0;
 }
 
 .requirement-course__img {
@@ -778,7 +779,7 @@ main {
 }
 
 .requirement-course__list {
-  flex-basis: 50%;
+  flex-basis: 51%;
   margin: 0;
   padding: 0;
 }
@@ -788,7 +789,7 @@ main {
   display: block;
   box-sizing: border-box;
   width: 60%;
-  padding: 0 2px 0 40px;
+  padding: 0 6px 0 40px;
   counter-reset: none;
   counter-increment: li;
   position: relative;
@@ -934,6 +935,7 @@ main {
 
 .requirement-course__title {
   margin: 0 0 30px;
+  padding: 0 200px 0 0;
 }
 
 .requirement-course__img {
@@ -946,7 +948,7 @@ main {
 }
 
 .requirement-course__list {
-  flex-basis: 50%;
+  flex-basis: 51%;
   margin: 0;
   padding: 0;
 }
@@ -956,7 +958,7 @@ main {
   display: block;
   box-sizing: border-box;
   width: 60%;
-  padding: 0 2px 0 40px;
+  padding: 0 6px 0 40px;
   counter-reset: none;
   counter-increment: li;
   position: relative;
@@ -1205,8 +1207,8 @@ main {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
     top: 139rem;
-    right: -15rem;
-  }
+    right: -19rem;
+
 
   header {
     padding: 2rem 0.1rem 0.1rem;
@@ -1258,7 +1260,7 @@ main {
 
   .before-course__description {
     flex-basis: 100%;
-    padding: 0 15px;
+    padding: 0 4px;
   }
 
   .before-course__title {
@@ -1318,6 +1320,7 @@ main {
     font-size: 1.20rem;
     line-height: 1.25rem;
     margin-bottom: 20px;
+    padding: 0;
   }
 
   .requirement-course__description {
@@ -1350,6 +1353,7 @@ main {
     font-size: 1.20rem;
     line-height: 1.25rem;
     margin-bottom: 20px;
+    padding: 0;
   }
 
   .requirement-course__description {
@@ -1426,7 +1430,8 @@ main {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
     top: 194rem;
-    right: -25rem;
+    right: -32rem;
+
   }
 
   header {
