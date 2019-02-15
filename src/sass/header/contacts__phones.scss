@@ -11,12 +11,12 @@
     display: block;
     text-decoration: none;
     position: relative;
-    padding-left: 1rem;
+    padding-left: 16px;
     color: $black;
     font-family: $primary-font-accent;
-    font-size: 0.65125rem;
+    font-size: 10px;
     font-weight: 500;
-    line-height: 1rem;
+    line-height: 16px;
 }
 
 .phone__link::before {
@@ -24,8 +24,8 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 0.625rem;
-    height: 1.1rem;
+    width: 10px;
+    height: 18px;
     background: url(../images/sprite/call-answer.svg) no-repeat center;
-    background-size: 0.625rem 0.75rem;
+    background-size: 10px 12px;
 }
