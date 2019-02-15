@@ -521,23 +521,23 @@ template {
 }
 
 .watermark__txt-one {
-  font-size: 11.25rem;
-  top: 48.2rem;
-  right: 21rem;
+  font-size: 180px;
+  bottom: 2729px;
+  right: -8px;
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
 .watermark__txt-two {
-  font-size: 10.25rem;
-  top: 145.7rem;
-  right: -7.4rem;
+  font-size: 164px;
+  bottom: 1187px;
+  right: -450px;
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
 header {
-  padding: 2rem 0.375rem 0.7rem;
+  padding: 32px 6px 11px;
 }
 
 .header {
@@ -545,7 +545,7 @@ header {
 }
 
 .contacts-wrapper {
-  width: 26.744186%;
+  width: 217px;
   align-items: center;
 }
 
@@ -565,8 +565,8 @@ header {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 0.875rem;
-  height: 1.1rem;
+  width: 14px;
+  height: 18px;
   background: url(../images/sprite/close-envelope.svg) no-repeat left;
 }
 
@@ -579,12 +579,12 @@ header {
   display: block;
   text-decoration: none;
   position: relative;
-  padding-left: 1rem;
+  padding-left: 16px;
   color: #000000;
   font-family: "Acrom-Bold";
-  font-size: 0.65125rem;
+  font-size: 10px;
   font-weight: 500;
-  line-height: 1rem;
+  line-height: 16px;
 }
 
 .phone__link::before {
@@ -592,10 +592,10 @@ header {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 0.625rem;
-  height: 1.1rem;
+  width: 10px;
+  height: 18px;
   background: url(../images/sprite/call-answer.svg) no-repeat center;
-  background-size: 0.625rem 0.75rem;
+  background-size: 10px 12px;
 }
 
 main {
@@ -656,7 +656,7 @@ main {
 }
 
 .course-steps {
-  margin-bottom: 150px;
+  margin-bottom: 109px;
   padding: 0;
 }
 
@@ -898,17 +898,17 @@ main {
   color: #f26228;
   line-height: 1.3125rem;
   position: relative;
-  padding-left: 4rem;
+  padding-left: 68px;
 }
 
 .course-info__txt::before {
   content: '';
   position: absolute;
   display: block;
-  width: 34px;
+  width: 32px;
   height: 4px;
   background-color: #000000;
-  left: 0.75rem;
+  left: 24px;
   top: 50%;
   -webkit-transform: translate(0, -50%) rotate(-60deg);
   transform: translate(0, -50%) rotate(-60deg);
@@ -1078,7 +1078,7 @@ main {
   font-family: "Acrom-ExtraBold";
   color: #000000;
   font-size: 3.625rem;
-  margin: 0 0 10px;
+  margin: 0 0 12px;
   line-height: 18px;
   text-transform: uppercase;
 }
@@ -1195,28 +1195,22 @@ main {
 
 @media (max-width: 767px) {
   .watermark__txt-one {
-    font-size: 6.25rem;
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-    top: 56rem;
-    right: 0;
+    bottom: 3524px;
+    right: 200px;
   }
 
   .watermark__txt-two {
-    font-size: 6.25rem;
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-    top: 139rem;
-    right: -19rem;
-
+    right: -418px;
+    bottom: 2356px;
+  }
 
   header {
-    padding: 2rem 0.1rem 0.1rem;
+    padding: 32px 2px 2px;
   }
 
   .contacts-wrapper {
     flex-direction: column;
-    width: 39%;
+    flex-basis: 50%;
   }
 
   .contacts__phones {
@@ -1408,6 +1402,10 @@ main {
   .module:last-child {
     margin-bottom: 0;
   }
+
+  .section-course-program {
+    margin-bottom: 50px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1420,26 +1418,17 @@ main {
 
 @media (min-width: 768px) and (max-width: 1439px) {
   .watermark__txt-one {
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-    top: 79rem;
-    right: 4rem;
+    bottom: 3500px;
+    right: 200px;
   }
 
   .watermark__txt-two {
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-    top: 194rem;
-    right: -32rem;
-
+    right: -418px;
+    bottom: 1842px;
   }
 
   header {
-    padding-bottom: 0.1rem;
-  }
-
-  .contacts-wrapper {
-    width: 37%;
+    padding-bottom: 2px;
   }
 }
 
