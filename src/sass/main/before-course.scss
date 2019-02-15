@@ -4,7 +4,7 @@
     margin-bottom: 98px;
 }
 .before-course__description{
-    flex-basis: 45%;
+    flex-basis: 48%;
 }
 .before-course__img{
     display: block;
@@ -35,7 +35,7 @@
 .before-course__txt{
     @extend%txt;
     margin: 0;
-    padding: 0;
+    padding: 0 10px 0 0;
 }
 
 @media (max-width: 767px) {
@@ -45,7 +45,7 @@
     }
     .before-course__description{
         flex-basis: 100%;
-        padding: 0 15px;
+        padding: 0 4px;
     }
     .before-course__title{
         font-size: 1.20rem;

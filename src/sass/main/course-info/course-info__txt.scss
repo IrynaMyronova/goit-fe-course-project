@@ -5,16 +5,16 @@
     color: $dark-orange;
     line-height: 1.3125rem;
     position: relative;
-    padding-left: 4rem;
+    padding-left: 68px;
 
     &::before {
         content: '';
         position: absolute;
         display: block;
-        width: 34px;
+        width: 32px;
         height: 4px;
         background-color: $black;
-        left: 0.75rem;
+        left: 24px;
         top: 50%;
         transform: translate(0,-50%) rotate(-60deg);
     }
